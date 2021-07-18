@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head> 
+  <title>signup form</title>
+  <link rel="stylesheet" href="s.css">
+  <center><h1><b>Create Account</b></h2></center>
+  <style>body{background-image: url("bag2.jpg");height: 100%; background-position: center ;background-repeat: no-repeat;background-size: cover;}</style>
+ </head>
+ <body><center>
+ <form action="fsignupdb.php" method="POST">
+     <input type="text"name="username"placeholder="Username" required><br>
+     <input type="email" name="email"placeholder="Email Address"required><br>
+     <input type="password" name="password"placeholder="Password"required><br>
+     <b><input type="submit" class="login" value="Join Now"></b><br>
+    </form>
+	<hr width=30%>
+ <div><b>Already have an Account ?</b></div> <br>
+ <b><input type="button" class="login" onclick="window.location.href='flogin.php';" value="LOGIN"></b>
+</center>
+  </body>
+  
+</html> 
