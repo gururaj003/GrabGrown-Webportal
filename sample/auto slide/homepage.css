@@ -1,0 +1,7 @@
+body, html, ul, li, img, div{
+  margin:0; padding:0;
+}
+body{
+  width:50%;
+  margin: 50px;
+}
